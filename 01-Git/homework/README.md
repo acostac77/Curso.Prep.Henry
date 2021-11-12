@@ -46,8 +46,7 @@ Dentro de nuestra terminal podemos: revisar nuestra estructura de archivos, aña
 
 En este ejercicio crearemos un nuevo repositorio en Github y a partir de la linea de comandos crearemos un nuevo archivo y lo agregaremos a nuestro nuevo repositorio.
 
-Iniciaremos creando una carpeta desde la consola llamada: "CarpetaHenry"
-
+Iniciaremos creando una carpeta desde la consola llamada: "Cg
 Para ello primero iremos a la carpeta de nivel superior, escribe en la consola:
 
 ```bash
@@ -60,10 +59,9 @@ y presiona Enter. Una vez estés en el nivel superior, escribe:
   mkdir CarpetaHenry
 ```
 
-y presiona Enter. ¡Felicitaciones, has creado un directorio!
-
+y presiona Enter. ¡Felicitaciones, has creado un dire
 ### Crear un Repositorio
-
+ 
 Entra a github.com y logueate con tu usuario. Luego en la parte de arriba a la derecha buscá el signo '+' y elegí 'new repository'.
 
 ![alt](../img/repo-create.png)
