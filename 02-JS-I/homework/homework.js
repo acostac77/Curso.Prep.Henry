@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 4.2;
+const nuevoModulo = 21 / 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -27,14 +27,16 @@ const nuevoModulo = 21 % 5 === 4.2;
 
 function devolverString(str) {
   // "Return" la string provista: str
-  // Tu código:retrun str;
+  // Tu código: 
+  return str;
   
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código:retrun x+y;
+  // Tu código:
+  return x+y;
   
 }
 
@@ -119,7 +121,7 @@ function esPar(num) {
   if ( num % 2 === 0 ) {
     return true;
 } else {
-  return false
+  return false;
 }
 }
 
@@ -138,7 +140,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return match.pow(num, 2 );
+  return match.pow (num, 2 );
 
   
 }
@@ -206,7 +208,8 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
     // Tu código:
-  return str + "¡";
+  var newstr = "hola" + nombre + "!";
+  return newstr;
 
 }
 
@@ -244,7 +247,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-return (base * altura) % 2;
+return (base * altura) / 2;
 
 }
 
@@ -253,7 +256,8 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return dolar * 1.2;
+  var cambio = euro * 1.2;
+     return cambio;
 
 }
 
@@ -265,13 +269,14 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.length > 1){
-    return "Dato incorrecto"
+    return "Dato incorrecto";
+
 }
 
-if(letra === "a"|| letra === "e" || letra === "i" || letra === "o"|| letra ==="u"){
-  return "es vocal"
+if(letra === "a"|| letra === "e" || letra === "i" || letra === "o"|| letra === "u"){
+  return "Es vocal";
 }
-return "dato incorrecto"
+return "Dato incorrecto";
 }
 // No modificar nada debajo de esta línea
 // --------------------------------
